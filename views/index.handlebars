@@ -10,14 +10,19 @@
     <link href="css/FIREtxt.css" rel="stylesheet">
 </head>
 
-<div class="container">
 <body>
 	<h1>Texting App</h1>
+  <div class="searchbar">
+    <form action="#">
+      <input class="searchbarField" type="text" name="Search" value="Search">
+    </form> 
+  </div>
   <hr>
 
   {{#each friends}}
     <div class="friends">
-      <h2 class="friendName"><a href="#">{{name}}</a></h2>
+      <h2 class="friendName"><a href="/convo">{{name}}</a></h2>
+      <p class="timestamp">{{timestamp}}</p>
       <p class="preview">{{preview}}</p>
     </div>
     <hr>
@@ -27,5 +32,4 @@
   <script src="js/bootstrap.js"></script>
   <script src="js/friends.js"></script>
 </body>
-</div>
 </html>

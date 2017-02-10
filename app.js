@@ -9,8 +9,7 @@ var path = require('path');
 var handlebars = require('express3-handlebars')
 
 var index = require('./routes/index');
-// Example route
-// var user = require('./routes/user');
+var convo = require('./routes/convo');
 
 var app = express();
 
@@ -36,8 +35,7 @@ if ('development' == app.get('env')) {
 
 // Add routes here
 app.get('/', index.view);
-// Example route
-// app.get('/users', user.list);
+app.get('/convo', convo.view);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
