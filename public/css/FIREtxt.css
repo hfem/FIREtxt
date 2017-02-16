@@ -35,8 +35,10 @@ a {
 .searchbar {
   background-color: #dedede;
   text-align: center;
-  padding-top: 3px;
-  padding-bottom: 3px;
+  padding-top: 7px;
+  padding-bottom: 10px;
+  border-bottom-width: 10px;
+  border-bottom-color: black;
 }
 
 .searchbarField {
