@@ -1,49 +1,97 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
 .friends {
+  font-weight: bold;
   text-align: left;
   padding-left: 10px;
   padding-right: 10px;
 }
 
 h1 {
-  font-size: 2em;
-  padding: 25px;
-  padding-top: 10px;
+  font-size: 1.5em;
+  font-weight: 600;
 	text-align: center;
 }
 
-a {
-  color: black;
+.conversationList {
+  padding-top: 145px;
 }
 
 .friendName {
-  font-size: 1.75em;
+  font-size: 1.3em;
+  font-weight: bold;
   text-align: left;
   line-height: 0;
+  padding-top: 5px;
+  padding-bottom: 15px;
+  color: black;
 }
 
 .preview {
   text-align: left;
   padding-left: 15px;
+  line-height: 0;
+  color: black;
+  font-weight: 300;
 }
 
 .timestamp {
   text-align: right;
   line-height: 0;
   padding-right: 15px;
-}
-
-.searchbar {
-  background-color: #dedede;
-  text-align: center;
-  padding-top: 7px;
+  padding-top: 5px;
   padding-bottom: 10px;
-  border-bottom-width: 10px;
-  border-bottom-color: black;
+  color: black;
+  font-weight: 300;
 }
 
 .searchbarField {
   text-align: center;
   border-radius: 10px;
-  box-shadow: none;
-  width: 300px;
+  border: none;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  width: 250px;
+  margin: 7px 5px 5px 5px;
+}
+
+.myNavbar {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  background-color: #dedede;
+  box-shadow: 0px 2px 2px #dedede;
+  height: relative;
+  z-index: 1;
+}
+
+.homeHeader {
+  background-color: white;
+  padding: 30px 0px 20px 0px;
+}
+
+.friendNameHeader {
+  text-align: center;
+  font-weight: 600;
+  padding-top: 20px;
+  font-size: 1em;
+}
+
+.navbar-links {
+  text-align: center;
+  font-weight: 400;
+  padding: 25px 10px 10px 27px;
+  font-size: 1em;
+}
+
+.analyticsPane {
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  background-color: #dedede;
+  box-shadow: 0px 0px 2px 2px #dedede;
+  height: 30%;
+  z-index: 1;
 }

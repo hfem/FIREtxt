@@ -6,32 +6,56 @@
 	<meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/bootstrap-theme.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
     <link href="css/FIREtxt.css" rel="stylesheet">
 </head>
 
 <body>
-  <nav class = "navbar navbar-default" role = "navigation">
-    <h1>Texting App</h1>
-    <div class="searchbar">
-      <form action="#">
-        <input class="searchbarField" type="text" name="Search" value="Search">
-      </form> 
-    </div>
-  </nav>
 
-  {{#each friends}}
-    <div class="friends">
-      <h2 class="friendName"><a href="/convo">{{name}}</a></h2>
-      <p class="timestamp">{{timestamp}}</p>
-      <p class="preview">{{preview}}</p>
+  <div class="myNavbar">
+    <div class="row">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="col-12">
+        <div class="homeHeader">        
+          <h1>Texting App</h1>
+        </div>
+      </div>
+      <div class="container">
+        <form action="#">
+          <input class="searchbarField" type="text" name="Search" value="Search">
+        </form>
+      </div>
     </div>
-    <hr>
-  {{/each}}
+  </div>
 
-  <script src="js/jquery-1.11.0.js"></script>
-  <script src="js/bootstrap.js"></script>
-  <script src="js/friends.js"></script>
+  <div class="conversationList">
+    {{#each friends}}
+      <div class="container">
+        <a href="/convo">
+          <div class="row">
+            <div class="col-9">
+              <p class="friendName" href="/convo">{{name}}</p>
+            </div>
+            <div class="col-3">
+              <p class="timestamp">5:50pm</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <p class="preview">{{preview}}</p>
+            </div>
+          </div>
+          <hr>
+          </div>
+        </a>
+      </div>
+    {{/each}}
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 </body>
 </html>
