@@ -33,18 +33,18 @@
   <div class="conversationList">
     {{#each friends}}
       <div class="container">
-        <a href="/convo">
+        <a href="/convo/{{name}}">
           <div class="row">
             <div class="col-9">
               <p class="friendName" href="/convo">{{name}}</p>
             </div>
             <div class="col-3">
-              <p class="timestamp">{{timestamp}}</p>
+              <p class="timestamp">{{data.timestamp}}</p>
             </div>
           </div>
           <div class="row">
             <div class="col-12">
-              <p class="preview">{{preview}}</p>
+              <p class="preview">{{data.preview}}</p>
             </div>
           </div>
           <hr>

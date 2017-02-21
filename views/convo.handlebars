@@ -9,7 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
-    <link href="css/FIREtxt.css" rel="stylesheet">
+   <link href="../css/FIREtxt.css" rel="stylesheet">
   </head>
   <body>
 
@@ -20,7 +20,7 @@
         <h4 class="navbar-links"><a href="/">&lt Back</a></h4>
       </div>
       <div class="col-6">
-        <p class="friendNameHeader">Doug Englebart</p>
+        <p class="friendNameHeader">{{name}}</p>
       </div>
       <div class="col-3">
       </div>
@@ -30,12 +30,12 @@
   <div class="conversation">
     <div class="row">
       <div class="message me">
-        <p>Hello, world!</p>
+        <p>{{data.preview}}</p>
       </div>
     </div>
     <div class="row">
       <div class="message them">
-        <p>Hey!</p>
+        <p>{{data.preview}}</p>
       </div>
     </div>
   </div>
