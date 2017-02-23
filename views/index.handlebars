@@ -2,7 +2,7 @@
 
 <html>
 <head>
-    <title>Texting App</title>	
+    <title>FireConvos</title>	
 	<meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -19,7 +19,7 @@
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="col-12">
         <div class="homeHeader">        
-          <h1>Texting App</h1>
+          <h1>FireConvos<h1>
         </div>
       </div>
       <div class="container">
@@ -33,18 +33,18 @@
   <div class="conversationList">
     {{#each friends}}
       <div class="container">
-        <a href="/convo">
+        <a href="/convo/{{name}}">
           <div class="row">
             <div class="col-9">
-              <p class="friendName" href="/convo">{{name}}</p>
+              <p class="friendName">{{name}}</p>
             </div>
             <div class="col-3">
-              <p class="timestamp">{{timestamp}}</p>
+              <p class="timestamp">{{data.timestamp}}</p>
             </div>
           </div>
           <div class="row">
             <div class="col-12">
-              <p class="preview">{{preview}}</p>
+              <p class="preview">{{data.preview}}</p>
             </div>
           </div>
           <hr>
