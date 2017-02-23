@@ -25,23 +25,27 @@ h1 {
   text-align: left;
   line-height: 0;
   padding-top: 5px;
-  padding-bottom: 15px;
+  padding-bottom: 0px;
   color: black;
 }
 
 .preview {
   text-align: left;
   padding-left: 15px;
-  line-height: 0;
+  line-height: 1;
   color: black;
   font-weight: 300;
+  width: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .timestamp {
   text-align: right;
   line-height: 0;
   padding-right: 15px;
-  padding-top: 5px;
+  padding-top: 0px;
   padding-bottom: 10px;
   color: black;
   font-weight: 300;
@@ -81,27 +85,32 @@ h1 {
 
 .navbar-links {
   text-align: center;
-  font-weight: 400;
-  padding: 25px 10px 10px 27px;
-  font-size: 1em;
+  font-weight: 800;
+  padding: 20px 0px 0px 0px;
+  font-size: 1.5em;
 }
 
 .conversation {
   padding-top: 75px;
-
+  margin-bottom: 600px;
 }
 
 .message {
   border-radius: 10px;
   height: relative;
   width: relative;
+  max-width: 70%;
   margin: 15px;
+  margin-top: 5px;
   padding: 5px 10px 0px 10px;
+  font-size: 1em;
   line-height: 1.25;
+  clear: both;
 }
 
 .me {
   background-color: #2381ff;
+  color: white;
   float: right;
 }
 
@@ -121,10 +130,16 @@ h1 {
 }
 
 .stat {
-  padding: 15px 35px 15px 35px;
-  font-size: 1.5em;
+  margin: 5% 5% 0% 10%;
+  font-size: 1em;
   font-weight: 700;
+  text-align: center;
+  float: left;
+  width: 50%
 }
 
 .value {
+  margin: 5% 10% 0% 5%;
+  float: right;
+  width: 20%
 }
