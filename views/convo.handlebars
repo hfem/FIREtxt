@@ -15,45 +15,44 @@
   </head>
   <body>
 
-  <div class="convo">
-    <div class="myNavbar">
-      <div class="row">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="col-3">
-          <h4 class="navbar-links"><a href="/">&lt</a></h4>
-        </div>
-        <div class="col-6">
-          <p class="friendNameHeader">{{name}}</p>
-        </div>
-        <div class="col-3">
-        </div>
+  <div class="myNavbar">
+    <div class="row">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="col-3">
+        <h4 class="navbar-links"><a href="/">&lt</a></h4>
+      </div>
+      <div class="col-6">
+        <p class="friendNameHeader">{{name}}</p>
+      </div>
+      <div class="col-3">
       </div>
     </div>
-    <div class="payload"> 
-      <div class="conversation">
-        {{#each data.history}}
-          <h4>{{day}}</h4>
-          {{#each conversation}}
-            <div class="row">
-              <div class="message {{status}}">
-                <p>{{message}}</p>
-              </div>
-            </div>
-          {{/each}}
-        {{/each}}
-      </div>
+  </div>
 
-      <div class="analyticsPane">
-        <div class="row">
-          <div class="col-9">    
-            <p class="stat">Average Response Time</p>
-          </div>
-          <div class="col-3">    
-            <p class="stat value">5 min</p>
-          </div>
+  <div class="conversation">
+    {{#each data.history}}
+      <p class="dayLabel">{{day}}</p>
+      {{#each conversation}}
+        <div class="message {{status}}">
+          <p>{{message}}</p>
         </div>
-      </div>
-    </div>
+      {{/each}}
+    {{/each}}
+  </div> 
+
+  <p id="recent"></p>
+
+  <div class="analyticsPane">  
+    <p class="stat">Total messages</p>  
+    <p class="stat value">16</p>
+    <p class="stat">&nbsp&nbsp&nbsp&nbspFrom you</p>  
+    <p class="stat value">8</p>
+    <p class="stat">&nbsp&nbsp&nbsp&nbspFrom {{name}}</p>  
+    <p class="stat value">8</p>
+    <p class="stat">{{name}}'s average response time</p>  
+    <p class="stat value">3 min</p>
+    <p class="stat">Your average response time</p>  
+    <p class="stat value">5 min</p>
   </div>
 
   <script src="../js/tether.min.js"></script>
