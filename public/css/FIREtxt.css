@@ -29,6 +29,8 @@ h1 {
   text-align: center;
   position: fixed;
   top: 40%;
+  width: 80%;
+  margin: 0 10% 0 10%;
 }
 
 .authButton {
