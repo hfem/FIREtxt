@@ -10,6 +10,7 @@ var handlebars = require('express3-handlebars')
 
 var index = require('./routes/index');
 var convo = require('./routes/convo');
+var auth = require('./routes/auth');
 
 var app = express();
 
@@ -36,6 +37,7 @@ if ('development' == app.get('env')) {
 // Add routes here
 app.get('/', index.view);
 app.get('/convo/:friendName', convo.view);
+app.get('/auth', auth.view);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
