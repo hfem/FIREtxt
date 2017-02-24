@@ -137,8 +137,9 @@ h1 {
 
 .stat {
   margin: 5% 7% 0% 8%;
-  font-size: 1em;
+  font-size: .8em;
   font-weight: 700;
+  line-height: 1.25;
   text-align: left;
   float: left;
   width: 55%
