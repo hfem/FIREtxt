@@ -9,7 +9,7 @@ exports.view = function(req, res){
 	{
 		if(list[x].name === friend)
 		{
-			// assumption that "friend" is in the data
+			// assumption: "friend" is in the data
 			console.log(list[x].name);
 			res.render('convo', list[x]);
 		}

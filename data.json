@@ -65,7 +65,13 @@
       "preview":"well sorry for not minding my own business I guess?",
       "timestamp":"4:52pm"
   },
-  "name":"Tonald"
+  "name":"Tonald",
+  "analytics":{ "total":17,
+                "total_u":9,
+                "total_f":8,
+                "avg_time_u":5.5,
+                "avg_time_f":2
+              }
   },
   {"data":{
       "history":[
@@ -119,7 +125,13 @@
       "preview":"Yeah I'm down for it! Wanna grab dinner before at Chipotle?",
       "timestamp":"12:00pm"
   },
-  "name":"Sarah"
+  "name":"Sarah",
+  "analytics":{ "total":14,
+                "total_u":7,
+                "total_f":7,
+                "avg_time_u":10,
+                "avg_time_f":3
+              }
   },
   {"data":{
       "history":[
@@ -249,7 +261,13 @@
       "preview":"We'll talk another time then haha bye",
       "timestamp":" 11:50pm"
   },
-  "name":"Ken"
+  "name":"Ken",
+  "analytics":{ "total":36,
+                "total_u":19,
+                "total_f":17,
+                "avg_time_u":2.3,
+                "avg_time_f":2.7
+              }
   },
     {"data":{
       "history":[
@@ -317,7 +335,13 @@
       "preview":"can u chill ??",
       "timestamp":"6:01am"
   },
-  "name":"Bae"
+  "name":"Bae",
+  "analytics":{ "total":300,
+                "total_u":173,
+                "total_f":127,
+                "avg_time_u":1.4,
+                "avg_time_f":1.7
+              }
   },
     {"data":{
       "history":[
@@ -385,7 +409,13 @@
       "preview":"Just mix in the eggs into the batter",
       "timestamp":"7:40pm"
   },
-  "name":"Martha"
+  "name":"Martha",
+  "analytics":{ "total":23,
+                "total_u":9,
+                "total_f":14,
+                "avg_time_u":3,
+                "avg_time_f":5
+              }
   },
     {"data":{
       "history":[
@@ -453,7 +483,13 @@
       "preview":"Alright let's go hiking this weekend",
       "timestamp":"8:22pm"
   },
-  "name":"Jacques"
+  "name":"Jacques",
+  "analytics":{ "total":33,
+                "total_u":14,
+                "total_f":19,
+                "avg_time_u":20,
+                "avg_time_f":17
+              }
   },
     {"data":{
       "history":[
@@ -521,7 +557,13 @@
       "preview":"I'm sorry, but your name is hella funny",
       "timestamp":"4:52pm"
   },
-  "name":"Podrick"
+  "name":"Podrick",
+  "analytics":{ "total":44,
+                "total_u":21,
+                "total_f":23,
+                "avg_time_u":14,
+                "avg_time_f":20
+              }
   }
   ]
 }

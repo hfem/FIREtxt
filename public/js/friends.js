@@ -11,7 +11,7 @@ $(document).ready(function() {
 function initializePage() {
 	//console.log(data);
 	$("#search").autocomplete({
-    source: ["Sarah", "Tonald", "Bae", "Ken", "Martha", "Jacques-Sarant", "Podrick"],
+    source: ["Sarah", "Tonald", "Bae", "Ken", "Martha", "Jacques", "Podrick"],
     close: function (event, ui) {
         	window.location.replace(window.location.href + "convo/" + $(this).val() );
     	   }
