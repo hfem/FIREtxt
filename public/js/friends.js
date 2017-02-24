@@ -13,7 +13,7 @@ function initializePage() {
 	$("#search").autocomplete({
     source: ["Sarah", "Tonald", "Bae", "Ken", "Martha", "Jacques-Sarant", "Podrick"],
     close: function (event, ui) {
-        	window.location.replace(window.location.href + "convo/" + $(this).val() );
+        	window.location.replace("/convo/" + $(this).val() );
     	   }
 	});
 }
