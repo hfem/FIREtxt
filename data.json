@@ -319,16 +319,16 @@
         "conversation":[
           {"status":"sent",
           "timestamp":"4:50pm",
-          "message":"Hey why were you interested in my situation with Stephanie yesterday"},
+          "message":"I wanted to see a movie this weekend what do you think?"},
           {"status":"received",
           "timestamp":"4:51pm",
-          "message":"haha idk"},
+          "message":"hi"},
           {"status":"sent",
           "timestamp":"4:52pm",
-          "message":"alright then"},
+          "message":"HEEEEEEYYYY YYY YYYY YY"},
           {"status":"received",
           "timestamp":"4:52pm",
-          "message":"well sorry for not minding my own business I guess?"}
+          "message":"can u chill ??"}
           ]
         }
       ],
@@ -336,9 +336,9 @@
       "timestamp":"6:01am"
   },
   "name":"Bae",
-  "analytics":{ "total":300,
-                "total_u":173,
-                "total_f":127,
+  "analytics":{ "total":17,
+                "total_u":9,
+                "total_f":8,
                 "avg_time_u":1.4,
                 "avg_time_f":1.7
               }
@@ -393,16 +393,16 @@
         "conversation":[
           {"status":"sent",
           "timestamp":"4:50pm",
-          "message":"Hey why were you interested in my situation with Stephanie yesterday"},
+          "message":"Hey have you ever baked before? I'm looking for students"},
           {"status":"received",
           "timestamp":"4:51pm",
           "message":"haha idk"},
           {"status":"sent",
           "timestamp":"4:52pm",
-          "message":"alright then"},
+          "message":"alright so what do i do with the eggs??"},
           {"status":"received",
           "timestamp":"4:52pm",
-          "message":"well sorry for not minding my own business I guess?"}
+          "message":"Just mix in the eggs into the batter"}
           ]
         }
       ],
@@ -410,9 +410,9 @@
       "timestamp":"7:40pm"
   },
   "name":"Martha",
-  "analytics":{ "total":23,
+  "analytics":{ "total":17,
                 "total_u":9,
-                "total_f":14,
+                "total_f":8,
                 "avg_time_u":3,
                 "avg_time_f":5
               }
@@ -467,16 +467,16 @@
         "conversation":[
           {"status":"sent",
           "timestamp":"4:50pm",
-          "message":"Hey why were you interested in my situation with Stephanie yesterday"},
+          "message":"I love the outdoors!! Its like my zen place and I just always feel at home."},
           {"status":"received",
           "timestamp":"4:51pm",
           "message":"haha idk"},
           {"status":"sent",
           "timestamp":"4:52pm",
-          "message":"alright then"},
+          "message":"no its awesome!!"},
           {"status":"received",
           "timestamp":"4:52pm",
-          "message":"well sorry for not minding my own business I guess?"}
+          "message":"Alright let's go hiking this weekend"}
           ]
         }
       ],
@@ -484,9 +484,9 @@
       "timestamp":"8:22pm"
   },
   "name":"Jacques",
-  "analytics":{ "total":33,
-                "total_u":14,
-                "total_f":19,
+  "analytics":{ "total":17,
+                "total_u":9,
+                "total_f":8,
                 "avg_time_u":20,
                 "avg_time_f":17
               }
@@ -541,16 +541,16 @@
         "conversation":[
           {"status":"sent",
           "timestamp":"4:50pm",
-          "message":"Hey why were you interested in my situation with Stephanie yesterday"},
+          "message":"Hey I'm a cool squire who is totally gonna be an awesome knight someday"},
           {"status":"received",
           "timestamp":"4:51pm",
-          "message":"haha idk"},
+          "message":"haha okay then"},
           {"status":"sent",
           "timestamp":"4:52pm",
-          "message":"alright then"},
+          "message":"yeah!"},
           {"status":"received",
           "timestamp":"4:52pm",
-          "message":"well sorry for not minding my own business I guess?"}
+          "message":"I'm sorry, but your name is hella funny"}
           ]
         }
       ],
@@ -558,9 +558,9 @@
       "timestamp":"4:52pm"
   },
   "name":"Podrick",
-  "analytics":{ "total":44,
-                "total_u":21,
-                "total_f":23,
+  "analytics":{ "total":17,
+                "total_u":9,
+                "total_f":8,
                 "avg_time_u":14,
                 "avg_time_f":20
               }
