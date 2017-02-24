@@ -9,5 +9,11 @@ $(document).ready(function() {
  * Function that is called when the document is ready.
  */
 function initializePage() {
-	console.log("Javascript connected!");
+	//console.log(data);
+	$("#search").autocomplete({
+    source: ["Sarah", "Tonald", "Bae", "Ken", "Martha", "Jacques-Sarant", "Podrick"],
+    close: function (event, ui) {
+        	window.location.replace(window.location.href + "convo/" + $(this).val() );
+    	   }
+	});
 }
