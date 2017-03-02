@@ -12,6 +12,7 @@
   <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous"> -->
   <link href="css/bootstrap.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/font-awesome.css">
   <link href="css/FIREtxt.css" rel="stylesheet">
 </head>
 
@@ -27,12 +28,12 @@
       </div>
       <div class="container">
         <form action="#">
+          <i class="fa fa-search" aria-hidden="false"></i>
           <input class="searchbarField" type="text" id="search">
         </form>
       </div>
     </div>
   </div>
-
   <div class="conversationList">
     {{#each friends}}
       <div class="container">
@@ -57,10 +58,12 @@
     {{/each}}
   </div>
 
+
   <script src="js/tether.min.js"></script>
   <script src="js/jquery-3.1.1.js"></script>
   <script src="js/jquery-ui.js"></script>
   <script src="js/bootstrap.js"></script>
   <script src="js/friends.js"></script>
+  <script src="https://use.fontawesome.com/11a76ebda9.js"></script>
 </body>
 </html>
