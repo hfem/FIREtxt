@@ -134,14 +134,7 @@
       "preview":"Okay thats not too bad. thanks",
       "timestamp":"9:30pm"
   },
-  "name":"Tonald", 
-  "analytics": {
-                 "total"      : "36",
-                 "total_u"    : "20",
-                 "total_f"    : "16",
-                 "avg_time_f" : "2",
-                 "avg_time_u" : "2.7"
-                }
+  "name":"Tonald"
   },
   {"data":{
       "history":[
@@ -349,14 +342,7 @@
       "preview":"Yeah anytime Good night!",
       "timestamp":"8:41pm"
   },
-  "name":"Ken", 
-  "analytics": {
-                 "total"      : "58",
-                 "total_u"    : "29",
-                 "total_f"    : "29",
-                 "avg_time_f" : "5",
-                 "avg_time_u" : "4"
-                }
+  "name":"Ken"
   },
   {"data":{
       "history":[
@@ -518,14 +504,7 @@
       "preview":"Jennifer!? Omg I love her so much haha",
       "timestamp":"5:56pm"
   },
-  "name":"Sarah",
-  "analytics": {
-                 "total"      : "46",
-                 "total_u"    : "23",
-                 "total_f"    : "23",
-                 "avg_time_f" : "1.5",
-                 "avg_time_u" : "1.3"
-                }
+  "name":"Sarah"
   }
   ]
 }
