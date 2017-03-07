@@ -37,7 +37,11 @@
   <div class="conversationList">
     {{#each friends}}
       <div class="container">
-        <a href="/convo/{{name}}#recent">
+      {{#if ../visuals }}
+        <a href="/convo/B-{{name}}#recent">
+      {{else}}
+        <a href="/convo/A-{{name}}#recent">
+      {{/if}}
           <div class="row">
             <div class="col">
               <p class="friendName">{{name}}</p>

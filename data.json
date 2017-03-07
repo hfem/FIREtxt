@@ -1,4 +1,5 @@
-{ "friends":[ 
+{ "visuals": true,
+  "friends":[ 
   {"data":{
       "history":[
         {"day":"Sunday",

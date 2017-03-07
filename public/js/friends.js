@@ -11,9 +11,9 @@ $(document).ready(function() {
 function initializePage() {
 	//console.log(data);
 	$("#search").autocomplete({
-    source: ["Sarah", "Tonald", "Bae", "Ken", "Martha", "Jacques", "Podrick"],
+    source: ["Sarah", "Tonald", "Ken"],
     close: function (event, ui) {
-        	window.location.replace("/convo/" + $(this).val() );
+        	window.location.replace("/convo/A-" + $(this).val() );
     	   }
 	});
 }
