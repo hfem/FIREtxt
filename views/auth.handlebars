@@ -26,7 +26,11 @@
   </div>
 
   <div class="authButton">
-    <a href="/index">
+  {{#if visuals}}
+    <a href="/index-B">
+  {{else}}
+    <a href="/index-A">
+  {{/if}}
       <button type="button" class="btn authButton">Authorize</button>
     </a>
   </div>

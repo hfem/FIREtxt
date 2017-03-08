@@ -36,9 +36,9 @@ if ('development' == app.get('env')) {
 
 // Add routes here
 app.get('/', auth.view);
-app.get('/index', index.view);
-app.get('/convo/A-:friendName', convo.view);
-app.get('/convo/B-:friendName', convo.viewVisuals);
+app.get('/B', auth.viewVisuals);
+app.get('/index-:test', index.view);
+app.get('/convo-:test/:friendName', convo.view);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));

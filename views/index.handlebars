@@ -38,9 +38,9 @@
     {{#each friends}}
       <div class="container">
       {{#if ../visuals }}
-        <a href="/convo/B-{{name}}#recent">
+        <a href="/convo-B/{{name}}#recent">
       {{else}}
-        <a href="/convo/A-{{name}}#recent">
+        <a href="/convo-A/{{name}}#recent">
       {{/if}}
           <div class="row">
             <div class="col">
@@ -62,12 +62,11 @@
     {{/each}}
   </div>
 
-
   <script src="js/tether.min.js"></script>
   <script src="js/jquery-3.1.1.js"></script>
   <script src="js/jquery-ui.js"></script>
+  <script src="https://use.fontawesome.com/11a76ebda9.js"></script>
   <script src="js/bootstrap.js"></script>
   <script src="js/friends.js"></script>
-  <script src="https://use.fontawesome.com/11a76ebda9.js"></script>
 </body>
 </html>
