@@ -13,7 +13,13 @@ function initializePage() {
 	$("#search").autocomplete({
     source: ["Sarah", "Tonald", "Ken"],
     close: function (event, ui) {
-        	window.location.replace("/convo/A-" + $(this).val() );
+    		if( window.location.href == "/index-A"){
+    			window.location.replace("/convo-A/" + $(this).val() + "#recent");
+    		}
+    		else{
+    			window.location.replace("/convo-B/" + $(this).val() + "#recent");
+    		}
+        	
     	   }
 	});
 }

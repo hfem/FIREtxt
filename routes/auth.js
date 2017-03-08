@@ -2,6 +2,11 @@
 var data = require('../data.json');
 
 exports.view = function(req, res){
-  console.log(data);
+  data.visuals = false;
+  res.render('auth', data);
+};
+
+exports.viewVisuals = function(req, res){
+  data.visuals = true;
   res.render('auth', data);
 };
