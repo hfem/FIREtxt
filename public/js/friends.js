@@ -13,7 +13,7 @@ function initializePage() {
 	$("#search").autocomplete({
     source: ["Sarah", "Tonald", "Ken"],
     close: function (event, ui) {
-    		if( window.location.href == "/index-A"){
+    		if( window.location.href.includes("/index-A")){
     			window.location.replace("/convo-A/" + $(this).val() + "#recent");
     		}
     		else{
