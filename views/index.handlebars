@@ -26,9 +26,9 @@
           <h1>FireConvos<h1>
         </div>
       </div>
-      <div class="container">
+      <div class="container searchbarPanel">
         <form action="#">
-          <i class="fa fa-search" aria-hidden="false"></i>
+          <i class="fa fa-search searchIcon" aria-hidden="false"></i>
           <input class="searchbarField" type="text" id="search">
         </form>
       </div>
@@ -42,19 +42,28 @@
       {{else}}
         <a href="/convo/A-{{name}}#recent">
       {{/if}}
+
           <div class="row">
-            <div class="col">
-              <p class="friendName">{{name}}</p>
+            <div class="col friendIconDiv">
+              <img class="friendIcon" src="http://r.ddmcdn.com/s_f/o_1/cx_633/cy_0/cw_1725/ch_1725/w_720/APL/uploads/2014/11/too-cute-doggone-it-video-playlist.jpg"></img>
             </div>
             <div class="col">
-              <p class="timestamp">{{data.timestamp}}</p>
+              <div class="row">
+                <div class="col">
+                  <p class="friendName">{{name}}</p>
+                </div>
+                <div class="col">
+                  <p class="timestamp">{{data.timestamp}}</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  <p class="preview">{{data.preview}}</p>
+                </div>
+              </div>            
             </div>
           </div>
-          <div class="row">
-            <div class="col-12">
-              <p class="preview">{{data.preview}}</p>
-            </div>
-          </div>
+
           <hr>
           </div>
         </a>

@@ -47,8 +47,17 @@ h1 {
   padding-top: 150px;
 }
 
+.friendIconDiv {
+  max-width: 15%;
+}
+
+.friendIcon {
+    border-radius: 50%;
+    max-width: 50px;
+    max-height: 50px;
+}
+
 .friendName {
-  font-size: 1.3em;
   font-weight: bold;
   text-align: left;
   line-height: 0;
@@ -59,7 +68,6 @@ h1 {
 
 .preview {
   text-align: left;
-  padding-left: 15px;
   line-height: 1;
   color: black;
   font-weight: 300;
@@ -79,27 +87,38 @@ h1 {
   font-weight: 300;
 }
 
+.searchbarPanel {
+  padding-top: 5px;
+  width: 100%;
+}
+
+.searchIcon {
+  width: 5%;
+  margin: 0% 0% 0% 17%;
+}
+
 .searchbarField {
   text-align: center;
   border-radius: 10px;
   border: none;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
-  width: 250px;
-  margin: 7px 5px 5px 5px;
+  width: 55%;
+  margin: 7px 13% 7px 0%;
+  padding: 0;
 }
 
 .myNavbar {
   top: 0;
   position: fixed;
   width: 100%;
-  background-color: #dedede;
-  box-shadow: 0px 2px 2px #dedede;
+  background-color: #bddcd8;
+  box-shadow: 0px 2px 2px 2px #bddcd8;
   z-index: 1;
 }
 
 .homeHeader {
-  background-color: white;
+  background-color: #cdeee8;
   padding: 30px 0px 20px 0px;
 }
 
@@ -157,10 +176,14 @@ h1 {
   bottom: 0;
   position: fixed;
   width: 100%;
-  background-color: #dedede;
-  box-shadow: 0px 0px 2px 2px #dedede;
+  background-color: #bddcd8;
+  box-shadow: 0px 0px 2px 2px #bddcd8;
   height: 35%;
   z-index: 1;
+}
+
+.analyticsImg {
+  max-height: 90%;
 }
 
 .stat {
@@ -170,14 +193,14 @@ h1 {
   line-height: 1.25;
   text-align: left;
   float: left;
-  width: 55%
+  width: 55%;
 }
 
 .value {
   margin: 5% 8% 0% 7%;
   float: right;
   text-align: right;
-  width: 15%
+  width: 15%;
 }
 
 ::-webkit-scrollbar { 
