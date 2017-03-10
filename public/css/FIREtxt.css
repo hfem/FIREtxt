@@ -18,9 +18,21 @@ h1 {
 .welcome {
   position: fixed;
   width: 100%;
-  top: 20%;
+  top: 10%;
   margin-bottom: 50px;
   text-align: center;
+}
+
+.welcome h1 {
+  color: #4aa695;
+}
+
+.authLogo {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 38%;
 }
 
 .authQuestion {
@@ -28,7 +40,7 @@ h1 {
   padding: 0px 10px 0px 10px;
   text-align: center;
   position: fixed;
-  top: 40%;
+  top: 55%;
   width: 80%;
   margin: 0 10% 0 10%;
 }
@@ -38,7 +50,7 @@ h1 {
   background-color: #313131;
   box-shadow: 0px 4px 4px #999999;
   position: fixed;
-  top: 70%;
+  top: 75%;
   width: 40%;
   margin: 0 15% 0 15%;
 }
@@ -119,7 +131,20 @@ h1 {
 
 .homeHeader {
   background-color: #cdeee8;
-  padding: 30px 0px 20px 0px;
+  color: #4aa695;
+  padding-top: 5%;
+  padding-bottom: 6%;
+}
+
+.homeHeader h1 {
+  text-align: left;
+  padding-top: 3%;
+}
+
+.indexLogo {
+  max-width: 45px;
+  float: right;
+  margin-right: -25%;
 }
 
 .friendNameHeader {
