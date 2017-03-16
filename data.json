@@ -323,16 +323,16 @@
         "conversation":[
           {"status":"received",
           "timestamp":"7:43pm",
-          "message":"Hey ken thanks a lot for the help today"},
+          "message":"Hey babe thanks a lot for the help today"},
           {"status":"sent",
           "timestamp":"7:44pm",
-          "message":"Oh no problem!"},
+          "message":"Oh no problem honey"},
           {"status":"sent",
           "timestamp":"7:44pm",
-          "message":"Lemme know if you need help with anything else!"},
+          "message":"Lemme know if you need help with anything else Barb!"},
           {"status":"received",
           "timestamp":"8:39pm",
-          "message":"Okay cool! Thanks! I think i might be okay for now"},
+          "message":"Okay cool! Thanks babe! I think i might be okay for now"},
           {"status":"received",
           "timestamp":"8:39pm",
           "message":"Wait actually did Roberts mention what exactly would be on the test?"},
@@ -341,14 +341,14 @@
           "message":"Yeah so you gotta know directional derivatives, LaGrange Multipliers, and global x and y variables"},
           {"status":"received",
           "timestamp":"8:41pm",
-          "message":"Okay thanks so much!"},
+          "message":"Okay thanks so much! Lets get lunch tomorrow and then head to the football game"},
           {"status":"sent",
           "timestamp":"8:41pm",
-          "message":"Yeah anytime Good night!"}
+          "message":"Yeah anytime. And sounds good <3 Love you and good night!"}
           ]
         }
       ],
-      "preview":"Yeah anytime Good night!",
+      "preview":"Yeah anytime. And sounds good <3 Love you and good night!",
       "timestamp":"8:41pm",
       "icon":"https://pbs.twimg.com/profile_images/785364081700118528/OXj_e-P7.jpg"
   },
